@@ -100,8 +100,49 @@
 
     #mobile-view-menu:hover + #pages-menu, #pages-menu:hover{
         top: 60px;
-        
+
     }
 
 
+}
+
+@media only screen and (max-width: 800px) {
+    #main-header {
+        display: inherit;
+        height: auto;
+        text-align: center;
+        font-size: 70%;
+    }
+ 
+    #logo {
+        height: 200px;
+        padding: 1em;
+    }
+ 
+    #logo img {
+        display: inline-block;
+        height: 100%;
+    }
+ 
+ 
+ 
+    .content {
+        display: block;        
+    }
+ 
+    aside {
+        position: inherit;
+        box-shadow: none;
+        width: 100%;
+    }
+ 
+    #aside-trigger {
+        display: none;
+    }
+}
+ 
+@media only screen and (max-width: 500px) {
+    #brand {
+        display: none;
+    }
 }
